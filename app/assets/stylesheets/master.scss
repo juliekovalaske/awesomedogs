@@ -1,1 +1,34 @@
 @import "bootstrap";
+
+h1 {
+  color: #0000ff;
+  margin-left: 200px;
+  margin-right: auto;
+  margin-top: 50px;
+  font-size: 72px; 
+}
+
+body {
+  background: image_url('background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card-img-top {
+  background: image_url('Winston1.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 750px;
+}
+
+.card {
+  height: 800px;
+}
+
+.card-text {
+  font-size: 18px;
+}
