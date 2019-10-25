@@ -16,19 +16,40 @@ body {
   background-size: cover;
 }
 
-.card-img-top {
-  background: image_url('Winston1.jpg')no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 750px;
+.navbar {
+  background: image_url('squared_metal.png');
 }
 
-.card {
-  height: 800px;
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  max-height: 550px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.card-text {
-  font-size: 18px;
+.slogan {
+  font-size: 32px;
+  font-style: bold;
+}
+
+.links {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 32px;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding: 50px;
 }

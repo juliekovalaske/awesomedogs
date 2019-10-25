@@ -10,6 +10,15 @@
   </head>
 
   <body>
+    <nav class="navbar">
+      <div class="col-3 slogan">
+        We Love Dogs!
+      </div>
+      <div class="col-4 links">
+        <%= link_to 'Add your dog', new_dog_path %>
+      </div>
+    </nav>
+
     <%= yield %>
   </body>
 </html>

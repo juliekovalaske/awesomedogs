@@ -1,0 +1,11 @@
+<h1>Enter dog info here</h1>
+
+<div class="booyah-box col-10 offset-1">
+  <%= simple_form_for @dogs do |f| %>
+    <%= f.input :name %>
+    <%= f.input :breed %>
+    <%= f.input :age %>
+    <%= f.input :funfact %>
+    <%= f.submit 'Submit', class: 'btn btn-primary' %>
+  <% end %>
+</div>
